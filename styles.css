@@ -4,6 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: hsl(0, 0%, 95%);
 }
 #calculator{
     font-family: Arial, sans-serif;
@@ -37,4 +38,10 @@ button{
     font-size: 3rem;
     font-weight: bold;
     cursor: pointer;
+}
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+button:active{
+    background-color: hsl(0, 0%, 50%);
 }
