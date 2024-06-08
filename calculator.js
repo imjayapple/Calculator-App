@@ -2,8 +2,10 @@
 
 const display = document.getElementById('display');
 
-function appendToDisplay(input){
 
+// from the 'keys' id, create the three necessary functions below
+function appendToDisplay(input){
+    display.value += input;
 }
 
 function clearDisplay(){
@@ -11,5 +13,5 @@ function clearDisplay(){
 }
 
 function calculate(){
-    
+
 }
